@@ -5,7 +5,6 @@ import Loading from "./components/Loading";
 import { fetchWeather } from "./services/weatherService";
 
 export default function App() {
-  const [city, setCity] = useState("");
   const [weather, setWeather] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
