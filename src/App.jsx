@@ -10,7 +10,6 @@ export default function App() {
   const [error, setError] = useState("");
 
   const handleSearch = async (searchCity) => {
-    setCity(searchCity);
     setLoading(true);
     setError("");
     setWeather(null);
