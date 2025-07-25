@@ -28,13 +28,10 @@ export default function App() {
 
   return (
     <div
-      className="min-h-screen bg-cover bg-center flex flex-col items-center justify-center px-4 py-10"
-      style={{
-        backgroundImage: `url('/assets/cloudy-sky.jpg')`, // Replace with your actual background path
-      }}
-    >
-      <div className="w-full max-w-md">
-        <h1 className="text-4xl font-bold text-center text-black drop-shadow-lg mb-6">
+      className="min-h-screen w-full bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 flex flex-col items-center justify-center px-4 py-10">
+
+      <div className="w-full max-w-md bg-white/10 backdrop-blur-md rounded-3xl shadow-lg p-6">
+        <h1 className="text-4xl font-bold text-center text-white drop-shadow-md mb-6">
           🌤 WeatherNow
         </h1>
 

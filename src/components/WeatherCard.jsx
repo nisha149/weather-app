@@ -25,13 +25,13 @@ export default function WeatherCard({ weather }) {
 
       {/* Description */}
       <h3 className="text-xl font-semibold capitalize">{condition}</h3>
-      <p className="text-sm text-white/80 mb-4 capitalize">{description}</p>
+      <p className="text-sm text-white/60 mb-4 capitalize">{description}</p>
 
       {/* Temperature */}
       <h1 className="text-5xl font-bold mb-6">{Math.round(temp)}°C</h1>
 
       {/* Weather Details Grid */}
-      <div className="grid grid-cols-2 gap-4 text-sm text-black/90">
+      <div className="grid grid-cols-2 gap-4 text-sm text-white/80">
         <div>
           <p className="font-semibold">Humidity</p>
           <p>{humidity}%</p>
@@ -51,7 +51,7 @@ export default function WeatherCard({ weather }) {
       </div>
 
       {/* Footer Credit */}
-      <p className="mt-6 text-xs text-black/60 text-center">
+      <p className="mt-6 text-xs text-black/80 text-center">
         Made by Nisha
       </p>
     </div>
